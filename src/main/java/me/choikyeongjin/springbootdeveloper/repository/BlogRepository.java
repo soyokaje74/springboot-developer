@@ -1,0 +1,7 @@
+package me.choikyeongjin.springbootdeveloper.repository;
+
+import me.choikyeongjin.springbootdeveloper.domain.Article;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BlogRepository extends JpaRepository<Article, Long> {
+}
